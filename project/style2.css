@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.nav-con {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.login-con {
+    padding: 2;
+    margin: 2rem;
+    background-color: #f0f0f0;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin: 2rem;
+    padding: .5rem 1rem;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.blog-info h3{
+    margin: 1rem 0;
+}
